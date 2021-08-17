@@ -1,0 +1,89 @@
+@media (min-width: 700px){
+	body{
+		background-color: lightpink;
+	}
+	h2::after{
+		content: ""
+	}
+	ul{
+		display: inline;
+		list-style-type: none;
+		margin:0;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 16px;
+		overflow: hidden;
+	}
+	li a{
+		display: block;
+		padding: 8px;
+		background-color:#dddddd;
+	}
+	li{
+		float: left;
+	}
+}
+@media (max-width: 699px){
+	body{
+		background-color: lightpink;
+	}
+	h2::before{
+		content:"Welcome to "
+	}
+	p{
+		display: none;
+	}
+	ul{
+		margin:0;
+		padding: 0;
+		width: 200px;
+		background-color: lightyellow;
+	}
+	li a{
+		display: block;
+		color: lightgreen;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color: white;
+		color: black;
+	}	
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container > div{
+	background-color: #123456;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	width: 100px;
+	text-align: center;
+}
+.row > div{
+	padding: 20px;
+	background-color: #070707;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 20px;
+}
+header{
+	padding: 0px;
+	text-align: center;
+	background-color: lightblue;
+}
+nav{
+	text-align: center; 
+}
+footer{
+	background-color: black;
+}
+.divfooter{
+	text-align: left;
+	width: 80%;
+	margin-left: 120px;
+	color: white;
+}

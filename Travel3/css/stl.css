@@ -1,0 +1,21 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #222D38;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li {
+    float: left;
+    margin-left: 40px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: seashell;
+}
+.menu ul li :hover {
+    color:red;
+}
